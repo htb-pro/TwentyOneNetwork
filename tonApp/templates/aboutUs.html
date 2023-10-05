@@ -1,0 +1,29 @@
+{%load static%}
+{% load i18n%}
+<!doctype html>
+<html>
+<head>
+<title> Anout us</title>
+<meta charset="UTF-8" />
+<link rel="stylesheet" type="text/css" href="{% static 'css/homeStyle.css' %}" />
+</head>
+<body>
+
+    <div class="AboutUs" style="background-size:fix; background-image: url('{% static 'Pictures/fille_souriante_sappuillant_sur.JPEG' %}');
+        background-position: 5rem; object-fit:cover; ">
+
+               <a href="{% url 'tonApp:logo' %}" ><img src="{% static 'Pictures/logo_network21.PNG' %}" height="200px" width="200px" /></a>
+                  {% blocktranslate %}
+                  <p> We are world's champions uplifting human ressources.
+                    <br> Mision : our vision is to keep researches alive for future generations as a part of legacy.<br>
+                    Vision: bringing educationnal world system's available for old schools accessible toward the seminar's conferences and workshops, professional training.
+                </p>
+                {% endblocktranslate %}
+<!-- au niveau de la presentation on doit enlever we're worlds ... par le la presentation de l'entreprise  -->
+<div class="aboutUsInfo">
+    <span><a href="{% url 'tonApp:tonApp-homePage' %}" >{% trans "Home " %}</a></span>
+    <span><a href="#" class="member">{% trans "Become member"%}</a></span>
+</div>
+</div>
+</body>
+</html>

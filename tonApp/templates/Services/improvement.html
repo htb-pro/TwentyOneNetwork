@@ -1,0 +1,74 @@
+{% extends 'Services/coaching.html'%}
+{%load static %}
+{% load i18n%}
+{%block title %}Improvement service{%endblock%}
+{%block Content%}
+   <div class="headerImprovement">
+
+   </div>
+   
+   <div class="contentImprovement">
+        <div class="sectionImprovement" style="background-image: url('{%static 'Pictures/vue_en_haut_entreprise.png' %}'); background-position: 0 0px; background-size: cover;">
+    
+               {% trans "<p>improvement your bussiness for a good productivity<br> "%}
+                    {{Date}}</p>
+               </div>
+        <div class="contentImprovementText">
+            {% blocktranslate %}
+        <p><h2>In this service we're offering these kind of  service below</h2></p>
+         <span><b>Personal Growth Strategies:</b> Provide tips and techniques for personal growth, including 
+                setting goals, time management, and continuous learning. <br>
+               <b>Skill Enhancement:</b> Offer resources and guidance on how to improve specific skills, 
+                whether they are related to your career, hobbies, or personal interests.<br>
+                <b>Productivity Hacks:</b> Share effective strategies for boosting productivity, managing tasks, 
+                and staying organized in your daily life.<br>
+                <b>Lifelong Learning:</b> Emphasize the importance of continuous learning and provide 
+                suggestions for online courses, workshops, and educational resources.<br> 
+                <b>Healthy Lifestyle Habits:</b> Offer advice on adopting healthy habits such as exercise, nutrition, 
+                mindfulness, and stress management. <br>
+               <b>Financial Well-being: </b>Provide insights and tips for managing finances, budgeting, saving, 
+                and investing for a secure financial future.<br> </span>
+                {% endblocktranslate %}
+        </div> 
+   
+       
+        <div class="contentImprovementText1">
+            {% blocktranslate %}
+          <span><b>Time Management Techniques:</b> Share techniques for prioritizing tasks, managing time 
+                effectively, and achieving a better work-life balance.<br> 
+               <b>Effective Communication Skills:</b> Offer guidance on improving communication skills, both 
+                in personal interactions and professional settings.<br> 
+               <b>Overcoming Challenges:</b> Provide strategies for overcoming obstacles and setbacks, building 
+                resilience, and maintaining a positive mindset. <br>
+                <b> Networking and Relationship Building:</b> Share tips for building meaningful relationships, 
+                expanding your network, and nurturing professional connections. <br>
+               <b>Stress Reduction: </b>Offer techniques and practices for managing stress, promoting relaxation, 
+                and maintaining emotional well-being.<br> 
+               <b>Embracing Change:</b> Provide advice on adapting to change, embracing new opportunities, 
+                and cultivating a flexible mindset.</span>
+                {% endblocktranslate %}
+        </div>
+        <div class="Button">
+       <a href="{%url 'tonApp:CoordonneeUser' %}"> <p  style="background-color:rgb(212, 223, 226);color: red; 
+       font-size: 2rem; font-family: century 'sens-serif'; width: 10vw;height: 5vh;
+       margin-left: 35vw; text-align: center;padding: 10px; border-radius: 50px;
+        ">{% trans "Start" %}</p></a>
+        </div>
+    </div>
+  {%endblock%}
+   <footer>
+        <div class="join">
+                <p><h2>{% trans "Join us on"%}</h2></p>
+                <a href="#"><a href="#"><p><img src="{% static 'Pictures/facebookLogo.png'%}" alt="image non-retrouve" width="50" height="50" style="border-radius: 50%;">Facebook</p></a>
+                <a href="#"><p><img src="{%static 'Pictures/instagram.jpeg'%}" alt="image non-retrouve" width="50px" height="50" style="border-radius: 50%;">Instagram</p></a>
+                <a href="#"><p><img src="{%static 'Pictures/tik-tok-logo.png'%}" alt="image non-retrouve" width="50px">Tiktop</p></a>
+                <a href="#"><p><img src="{%static 'Pictures/twitter-logo.png'%}" alt="image non-retrouve" width="50px">Twiter</p></a>
+                <a href="#"><img src="{% static 'Pictures/linkdin logo.jpeg' %}" alt="image non-retrouve" width="50px" style="border-radius: 50%;">linkdIn</p></a>
+            </div>
+        <div class="callContacts">
+            <p><img src="{%static 'Pictures/whatsapp.png' %}" alt="image non retrouvé" width="25">: +243 85 416 60 45</p>
+            <p><img src="{%static 'Pictures/call logo.jpeg' %}" alt="image non retrouvé" width="25" style="border-radius: 50%;">: +243 99 116 20 45</p>
+        </div>
+   </footer>
+</body>
+</html>

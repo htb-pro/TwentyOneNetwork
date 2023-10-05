@@ -1,0 +1,313 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+body
+{
+    background-color: #fff;
+}
+
+nav
+{
+    width: 21vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 2px solid rgb(149, 218, 149); 
+
+}
+nav .navHeadTitle
+{
+    position: relative;
+    top: -5rem;
+   
+}
+nav .navHeadTitle img
+{
+    position: fixed;
+    left: 0.5rem;
+    top: 2rem;
+}
+nav .navHeadTitle span
+{
+    display: inline-block;
+    position: fixed;
+    top: 3rem;
+    left: 5rem;
+    font-size: 23px;
+    color: rgb(81, 131, 131);
+}
+nav a
+{
+    font-family: arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+    color: black;
+    text-align: left;
+    text-decoration: none;
+    margin: 10px 0;
+    backdrop-filter: 30px;
+}
+nav a:hover
+{
+    width: 20vw;
+    height: 2rem;
+    color: red;
+    transition: 0.2s;
+    text-align: center;
+    padding-top: 1rem;
+    background-color: rgb(165, 202, 165);
+    
+}
+
+nav a:focus
+{
+    width: 20vw;
+    height: 2.5rem;
+    color:red;
+    text-align: center;
+    transition: 1s;
+    background-color:rgb(81, 131, 131);
+}
+.ronds
+{
+    width: 10rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0px;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+
+.R1
+{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(87, 172, 187);
+    border-radius: 50%;
+
+
+    margin-left:5px;
+}
+.R2
+{
+    width: 25px;
+    height: 25px;
+    background-color: #f4f4f4;
+    border-radius: 50%;
+
+    margin-left:5px;
+}
+.R3
+{
+    width: 25px;
+    height:25px;
+    background-color:rgb(58, 110, 110);
+    border-radius: 50%;
+    margin-left:5px;
+}
+.R4
+{
+    width: 25px;
+    height:25px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left:5px;
+}
+.R5
+{
+    width: 25px;
+    height:25px;
+    background-color: rgb(149, 218, 149);
+    border-radius: 50%;
+    margin-left:5px;
+}
+/*----------------------------------------------------------Mise en forme de la page coordonnees des utilisateur   */
+header
+{ /* la mise en forme de l'entete de la page*/
+    width: 78vw;
+    height: 3.5rem;
+    position: relative;
+    left: 18.5rem;
+    background-color:rgb(81, 131, 131);
+    
+}
+header  .Heure
+{
+    margin-top: 10px;
+    position: absolute;
+    top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 1rem;
+    color: rgb(149, 218, 149);
+}
+header .Connexion
+{
+    position: absolute;
+    right: 2rem;
+    margin-top: 1rem;
+    font-size: 20px;
+   
+}
+header a
+{
+    text-decoration: none;
+    color: rgb(149, 218, 149);
+}
+header a:hover
+{
+    color:orangered;
+}
+.filtre
+{/*mise en forme du filtre*/
+    position: absolute;
+    left: 72.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.filtre img
+{
+    position: fixed;
+    
+}
+.filtre > p
+{
+    font-size: 20px;
+    margin-left: 2rem;
+}
+.menu
+{
+    width: 7rem;
+    height: 3rem;
+    font-size: 18px;
+    color: #f1f1f1;
+    background-color: rgb(156, 156, 156);
+    margin-left: 5rem;
+    margin-top: -1rem;
+    display: none; 
+}
+.filtre:hover .menu
+{
+    display:  block;
+}
+.filtre .menu a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.filtre .menu p:hover
+{
+    width: auto;
+    height: 1.5rem;
+    background-color:rgb(224, 222, 222);
+    padding: 2px;
+    transition: 0.3s;
+}
+
+section
+{ /* mise en forme de la section de la page*/
+    width: 78vw;
+    background-color:white;
+    position: fixed;
+    left: 18.5rem;
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+    
+}
+section .RechercheButton
+{
+    position: relative;
+    top: -1rem;
+}
+section .RechercheButton input:not([type="submit"])
+{
+    width: 15rem;
+    height: 2rem;
+    outline: none;
+    border-color: rgb(58, 110, 110);
+    font-size: 20px;
+}
+section .RechercheButton input:not([type="submit"]):focus
+{
+    border-color: red;
+    transition: all 3s;
+}
+section .RechercheButton input[type="submit"]
+{
+    width: 3rem;
+    height: 2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+}
+section .RechercheButton input[type="submit"]:hover
+{
+    background-color: red;
+}
+section table
+{
+    width: 78vw;
+    background-color:  rgb(58, 110, 110);
+    padding-bottom: 1rem;
+    color: white;
+    border-collapse: collapse;
+}
+section table thead th
+{ /*mise en forme des element d'entete du tableau*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 5px;
+    background-color: rgb(149, 218, 149);
+    height: 3rem;
+}
+section tbody td
+{
+    /*mise en forme des element du corps du tableau*/
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align:left;
+    padding: 5px;
+
+}
+
+section tbody tr:nth-child(even)
+{
+    background-color:rgb(81, 131, 131);
+}
+section tbody tr:nth-child(even) select
+{
+    background-color:rgb(81, 131, 131);
+}
+section table select
+{
+    border: none;
+    outline: none;
+    background-color: rgb(58, 110, 110);
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+/* mise en forme de la page des messages ou commentaires des utilisateurs*/
+.Commentaires table tbody  a
+{
+    width: auto;
+    height: auto;
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}

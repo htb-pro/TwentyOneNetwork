@@ -1,0 +1,41 @@
+{% extends 'UserManagement/index.html'%}
+{%load static%}
+{% block title %}Messages of users{%endblock%}
+        {%block Content %}
+        <header></header>
+        <section>  
+<div class="header">
+        
+    </div>
+    {%if commentaires %}
+    <div class="Commentaires">
+ <p><h2>Voici les commentaires des visiteurs </h2></p>
+ <table>
+<thead>
+    <tr>
+    <th>NOM</th>
+    <th>NUMERO</th>
+    <th>EMAIL</th>
+    <th>MESSAGE</th>
+    <th>OPERATION</th>
+    </tr>
+</thead>
+<tbody>
+    {%for commentaire in commentaires%}
+    <tr>
+        <td>{{commentaire.Nom}}</td>
+        <td>{{commentaire.Tel}}</td>
+        <td>{{commentaire.Mail}}</td>
+        <td>{{commentaire.message}}</td>
+    <td><a href="">Repondre</a>
+    </tr>
+    {%endfor%}
+</tbody>
+ </table>
+</div>
+
+{%else%}
+<p>Pas de commentaires</p>
+{%endif%}
+</section> 
+{%endblock%}

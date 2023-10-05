@@ -1,0 +1,726 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-05 22:29+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\tonApp\models.py:6
+msgid "Name"
+msgstr ""
+
+#: .\tonApp\models.py:7
+msgid "Mail"
+msgstr ""
+
+#: .\tonApp\models.py:8
+msgid "Message"
+msgstr ""
+
+#: .\tonApp\models.py:9
+msgid "Phone"
+msgstr ""
+
+#: .\tonApp\templates\Network 21 Formation.html:60
+msgid "Home"
+msgstr ""
+
+#: .\tonApp\templates\Network 21 Formation.html:61
+msgid "About us"
+msgstr ""
+
+#: .\tonApp\templates\Network 21 Formation.html:62
+msgid "Contact us"
+msgstr ""
+
+#: .\tonApp\templates\Network 21 Formation.html:63
+msgid "Join-us"
+msgstr ""
+
+#: .\tonApp\templates\Network 21 Formation.html:64
+msgid "Services"
+msgstr ""
+
+#: .\tonApp\templates\Network 21 Formation.html:70
+msgid ""
+"You're welcome on network twenty-one site<br>  Knowledge is the key for a "
+"best futur<br> wherever you are, <b>Network twenty one</b> is there to "
+"accompany you with its services."
+msgstr ""
+
+#: .\tonApp\templates\Network 21 Formation.html:85
+msgid ""
+"<p><b>Coaching</b><br>the best way to predict the future is to create it. in "
+"this way you need to improve your capacities and motivation. and we're there "
+"to lead you to success of your bussiness... </p>"
+msgstr ""
+
+#: .\tonApp\templates\Network 21 Formation.html:86 Formation.html:91
+#: Formation.html:96 Formation.html:102 Formation.html:108 Formation.html:113
+#: Formation.html:118 Formation.html:124
+msgid "Read more..."
+msgstr ""
+
+#: .\tonApp\templates\Network 21 Formation.html:90
+msgid ""
+"<p><b>Mentoring</b></br>For going somewhere better to be accompanied by "
+"someone who has already gone at the place twenty-one network offer you a "
+"good service of mantoring with the bests mentor...</p>"
+msgstr ""
+
+#: .\tonApp\templates\Network 21 Formation.html:95
+msgid ""
+"<p><b>discovering your self</b><br><span>A man is created with capacity to "
+"<b>be</b> and <b>do</b>, network twenty-one help you to know and exploit the "
+"capacity containing in you ...</span> "
+msgstr ""
+
+#: .\tonApp\templates\Network 21 Formation.html:101
+msgid ""
+" <p><b>Point of view</b></br>Lorem ipsum dolor, sit amet consectetur "
+"adipisicing elit. Facilis, quae rerum. Totam minus, tenetur neque dicta non "
+"quibusdam distinctio odit vel minima reiciendis eligendi hic voluptatibus "
+"eveniet dolor quis consectetur?</p> "
+msgstr ""
+
+#: .\tonApp\templates\Network 21 Formation.html:107
+msgid ""
+" <p><b>legacy</b><br>Lorem ipsum dolor, sit amet consectetur adipisicing "
+"elit. Facilis, quae rerum. Totam minus, tenetur neque dicta non quibusdam "
+"distinctio odit vel minima reiciendis eligendi hic voluptatibus eveniet "
+"dolor quis consectetur?"
+msgstr ""
+
+#: .\tonApp\templates\Network 21 Formation.html:112
+msgid ""
+"<p><b>openlessWoldWild</b><br>Lorem ipsum dolor, sit amet consectetur "
+"adipisicing elit. Facilis, quae rerum. Totam minus, tenetur neque dicta non "
+"quibusdam distinctio odit vel minima reiciendis eligendi hic voluptatibus "
+"eveniet dolor quis consectetur?"
+msgstr ""
+
+#: .\tonApp\templates\Network 21 Formation.html:117
+msgid ""
+"Talent<p><b>Talent</b><br>Lorem ipsum dolor, sit amet consectetur "
+"adipisicing elit. Facilis, quae rerum. Totam minus, tenetur neque dicta non "
+"quibusdam distinctio odit vel minima reiciendis eligendi hic voluptatibus "
+"eveniet dolor quis consectetur?"
+msgstr ""
+
+#: .\tonApp\templates\Network 21 Formation.html:123
+msgid ""
+"Talent<p><b>Improvement</b></br>Lorem ipsum dolor, sit amet consectetur "
+"adipisicing elit. Facilis, quae rerum. Totam minus, tenetur neque dicta non "
+"quibusdam distinctio odit vel minima reiciendis eligendi hic voluptatibus "
+"eveniet dolor quis consectetur?"
+msgstr ""
+
+#: .\tonApp\templates\Network 21 Formation.html:141
+#: .\tonApp\templates\Services\Discovering.html:70
+#: .\tonApp\templates\Services\Talent.html:68
+#: .\tonApp\templates\Services\openWorldWild.html:68
+#: .\tonApp\templates\Services\pointOfview.html:62
+msgid "Join us on :"
+msgstr ""
+
+#: .\tonApp\templates\Network 21 Formation.html:151
+msgid "For more information let's a message"
+msgstr ""
+
+#: .\tonApp\templates\Network 21 Formation.html:157
+msgid "Here's our contacts"
+msgstr ""
+
+#: .\tonApp\templates\Services\Discovering.html:21
+msgid ""
+"\n"
+"            <p>\n"
+"                This is a comprehensive service designed to guide "
+"individuals on their journey of self-discovery and \n"
+"personal growth. We offer a range of services that help you better "
+"understand your personality, \n"
+"strengths, and values, allowing you to set meaningful goals and live a more "
+"fulfilling life\n"
+"            </p>\n"
+"                <p><b>In this service we're offering these kind of mentoring "
+"service below</b></p>\n"
+"               <span><b>Self-Assessment Tools:</b> Provide a variety of self-"
+"assessment quizzes and tests that help \n"
+"individuals gain insights into their personality traits, strengths, and "
+"areas for personal growth.<br>\n"
+"                <b>Personal Values Exploration:</b> Guide visitors through "
+"exercises that help them identify their \n"
+"core values, enabling them to make decisions aligned with their beliefs."
+"<br> \n"
+"                <b>Goal Setting and Vision Boarding:</b> Offer resources and "
+"guidance for setting meaningful \n"
+"goals and creating vision boards to visualize and manifest their aspirations."
+"<br> \n"
+"                <b>Mindfulness and Self-Care:</b> Share mindfulness "
+"techniques, relaxation exercises, and self\n"
+"care tips to promote mental and emotional well-being. <br>\n"
+"                <b>Journaling Prompts:</b> Provide thought-provoking "
+"journaling prompts to encourage self\n"
+"reflection, creative expression, and personal insight.<br>\n"
+"            "
+msgstr ""
+
+#: .\tonApp\templates\Services\Discovering.html:43
+msgid ""
+"\n"
+"                <span>\n"
+"                <b>Life Purpose and Meaning:</b> Provide resources to help "
+"users reflect on their life purpose and \n"
+"find meaning in their daily lives.<br>\n"
+"                <b>Personality Typing:</b> Introduce various personality "
+"typing systems (e.g., Myers-Briggs, \n"
+"Enneagram) to help users better understand themselves and their interactions "
+"with others.<br>\n"
+"                <b>Self-Discovery Challenges:</b> Design interactive "
+"challenges or activities that encourage \n"
+"visitors to step out of their comfort zones and try new experiences.<br>\n"
+"                <b>Book and Podcast Recommendations:</b> Suggest "
+"inspirational books, podcasts, and TED \n"
+"talks that can spark personal growth and self-discovery.<br>\n"
+"                <b>Reflection and Gratitude Practices:</b> Share exercises "
+"that promote gratitude and encourage \n"
+"regular reflection on personal achievements and growth. \n"
+"<b>Passion and Interest Exploration:</b> Offer tools and suggestions for "
+"exploring passions and \n"
+"interests, encouraging visitors to pursue activities that bring them joy.\n"
+"        </span>\n"
+"        "
+msgstr ""
+
+#: .\tonApp\templates\Services\Discovering.html:78
+#: .\tonApp\templates\Services\Talent.html:76
+#: .\tonApp\templates\Services\mentoring.html:55
+#: .\tonApp\templates\Services\openWorldWild.html:76
+msgid "For more information contact us"
+msgstr ""
+
+#: .\tonApp\templates\Services\Talent.html:12
+msgid "<p>You can, because God put in you capacity<br></p>"
+msgstr ""
+
+#: .\tonApp\templates\Services\Talent.html:15
+#: .\tonApp\templates\Services\openWorldWild.html:15
+msgid "<p>develop what you got with network twenty-one </p>"
+msgstr ""
+
+#: .\tonApp\templates\Services\Talent.html:19
+msgid ""
+"<p><h2>In this service we're offering these kind of mentoring service below</"
+"h2></p>"
+msgstr ""
+
+#: .\tonApp\templates\Services\Talent.html:20
+msgid ""
+"\n"
+"               <span>\n"
+"                <b>Talent Discovery:</b> Assist visitors in discovering "
+"their unique talents through questionnaires, \n"
+"assessments, or interactive exercises.<br>\n"
+"                <b>Skill Development:</b> Provide guidance and resources to "
+"help users improve their skills and \n"
+"further develop their talents.<br> \n"
+"                <b>Exploring Career Passions:</b> visitors in exploring "
+"their career and vocational passions, \n"
+"helping them align their talents with areas of interest.<br>\n"
+"                <b>Creativity and Innovation:</b> techniques and tips to "
+"stimulate creativity and foster \n"
+"innovation using your talents.<br>\n"
+"                <b>Professional Empowerment:</b> Share strategies for "
+"leveraging your talents in the professional \n"
+"realm, whether as an employee or entrepreneur.<br>\n"
+"                <b>Training and Resources:</b> Provide recommendations for "
+"training, online courses, or books \n"
+"that can help further develop individual talents.<br>\n"
+"               </span>\n"
+"               "
+msgstr ""
+
+#: .\tonApp\templates\Services\Talent.html:41
+#: .\tonApp\templates\Services\openWorldWild.html:41
+msgid ""
+"\n"
+"                <span>\n"
+"                    <b>Networking and Collaborations:</b> Highlight the "
+"importance of networking and \n"
+"                    collaborations in showcasing your talents and expanding "
+"opportunities.<br> \n"
+"                   <b> Storytelling and Personal Branding:</b> Show how to "
+"use your talents to create a unique \n"
+"                    personal brand and tell your story compellingly. <br>\n"
+"                    <b>Success Testimonials:</b> Share inspirational stories "
+"of individuals who identified and \n"
+"                    harnessed their talents to achieve success.<br>\n"
+"                     <b>Social Contribution:</b> Explore how your talents "
+"can be used to make a positive difference \n"
+"                    in society and contribute to community well-being. <br>\n"
+"                    <b> Creative Challenges:</b> Offer creative challenges "
+"and projects to put your talents into practice \n"
+"                    and boost your creativity.<br>\n"
+"                    <b> Work-Life Balance:</b> Provide advice on balancing "
+"the use of your talents in your career and \n"
+"                    personal life to maintain a healthy harmony. \n"
+"                </span>\n"
+"                "
+msgstr ""
+
+#: .\tonApp\templates\Services\Talent.html:62
+#: .\tonApp\templates\Services\improvement.html:54
+#: .\tonApp\templates\Services\legacy.html:95
+#: .\tonApp\templates\Services\mentoring.html:41
+#: .\tonApp\templates\Services\openWorldWild.html:62
+#: .\tonApp\templates\Services\pointOfview.html:56
+msgid "Start"
+msgstr ""
+
+#: .\tonApp\templates\Services\coaching.html:18
+msgid ""
+" <p>Welcom in Coaching service<br> below you will found all details about "
+"coaching.<br> "
+msgstr ""
+
+#: .\tonApp\templates\Services\coaching.html:23
+msgid ""
+"\n"
+"       <p><b>Coaching</b> is about personal development and growth. Our one-"
+"on-one coaching sessions cater \n"
+"        to various aspects of life, from career and confidence building to "
+"stress management and\n"
+"        creativity. Let our experienced coaches guide you toward your goals."
+"</p>\n"
+"        <p><b>In this service we're offering these kind of coaching service "
+"below</b></p>\n"
+"         <span><b>Development Coaching:</b> Offer one-on-one coaching "
+"sessions to help individuals \n"
+"         and achieve personal and professional goals.</span></br> \n"
+"         <span><b>Career Coaching:</b> Provide guidance and support for "
+"career advancement, job search \n"
+"strategies, and professional development.</span><br>\n"
+"         <span><b>Life Balance Coaching:</b> Assist individuals in finding a "
+"healthy balance between work, \n"
+"personal life, and well-being.</span><br>\n"
+"        <span><b>Confidence and Self-Esteem Coaching:</b> Help individuals "
+"boost their confidence, develop a \n"
+"positive self-image, and overcome self-doubt.</span><br>\n"
+"        <span><b>Relationship Coaching:</b> Offer insights and strategies "
+"for building and maintaining healthy \n"
+"relationships, whether romantic, familial, or professional.</span>\n"
+"                "
+msgstr ""
+
+#: .\tonApp\templates\Services\coaching.html:43
+msgid ""
+"\n"
+"          <span><b>Leadership Coaching:</b> Provide coaching for individuals "
+"looking to enhance their leadership \n"
+"skills and effectively manage teams. </span><br>\n"
+"            <span><b>Stress Management Coaching:</b> Assist individuals in "
+"managing stress, developing coping \n"
+"strategies, and improving overall resilience. </span><br>\n"
+"            <span><b>Communication Skills Coaching:</b> Offer guidance on "
+"improving interpersonal \n"
+"communication, public speaking, and effective dialogue. </span><br>\n"
+"            <span><b>Health and Wellness Coaching:</b> Provide support for "
+"adopting healthy habits, improving \n"
+"fitness, and achieving overall wellness goals. </span><br>\n"
+"            <span><b>Time Management Coaching:</b> Help individuals optimize "
+"their time, prioritize tasks, and \n"
+"achieve better work-life balance.</span><br>\n"
+"            <span><b>Creativity Coaching:</b> Assist individuals in "
+"overcoming creative blocks, fostering \n"
+"innovation, and tapping into their creative potential.</span><br>\n"
+"            <span><b> Setting and Achievement Coaching: </b> individuals in "
+"setting actionable goals, \n"
+"developing plans, and tracking progress.</span>\n"
+"        </div>\n"
+"        "
+msgstr ""
+
+#: .\tonApp\templates\Services\coaching.html:64
+msgid " Start "
+msgstr ""
+
+#: .\tonApp\templates\Services\improvement.html:12
+msgid "<p>improvement your bussiness for a good productivity<br> "
+msgstr ""
+
+#: .\tonApp\templates\Services\improvement.html:16
+msgid ""
+"\n"
+"        <p><h2>In this service we're offering these kind of  service below</"
+"h2></p>\n"
+"         <span><b>Personal Growth Strategies:</b> Provide tips and "
+"techniques for personal growth, including \n"
+"                setting goals, time management, and continuous learning. "
+"<br>\n"
+"               <b>Skill Enhancement:</b> Offer resources and guidance on how "
+"to improve specific skills, \n"
+"                whether they are related to your career, hobbies, or "
+"personal interests.<br>\n"
+"                <b>Productivity Hacks:</b> Share effective strategies for "
+"boosting productivity, managing tasks, \n"
+"                and staying organized in your daily life.<br>\n"
+"                <b>Lifelong Learning:</b> Emphasize the importance of "
+"continuous learning and provide \n"
+"                suggestions for online courses, workshops, and educational "
+"resources.<br> \n"
+"                <b>Healthy Lifestyle Habits:</b> Offer advice on adopting "
+"healthy habits such as exercise, nutrition, \n"
+"                mindfulness, and stress management. <br>\n"
+"               <b>Financial Well-being: </b>Provide insights and tips for "
+"managing finances, budgeting, saving, \n"
+"                and investing for a secure financial future.<br> </span>\n"
+"                "
+msgstr ""
+
+#: .\tonApp\templates\Services\improvement.html:35
+msgid ""
+"\n"
+"          <span><b>Time Management Techniques:</b> Share techniques for "
+"prioritizing tasks, managing time \n"
+"                effectively, and achieving a better work-life balance.<br> \n"
+"               <b>Effective Communication Skills:</b> Offer guidance on "
+"improving communication skills, both \n"
+"                in personal interactions and professional settings.<br> \n"
+"               <b>Overcoming Challenges:</b> Provide strategies for "
+"overcoming obstacles and setbacks, building \n"
+"                resilience, and maintaining a positive mindset. <br>\n"
+"                <b> Networking and Relationship Building:</b> Share tips for "
+"building meaningful relationships, \n"
+"                expanding your network, and nurturing professional "
+"connections. <br>\n"
+"               <b>Stress Reduction: </b>Offer techniques and practices for "
+"managing stress, promoting relaxation, \n"
+"                and maintaining emotional well-being.<br> \n"
+"               <b>Embracing Change:</b> Provide advice on adapting to "
+"change, embracing new opportunities, \n"
+"                and cultivating a flexible mindset.</span>\n"
+"                "
+msgstr ""
+
+#: .\tonApp\templates\Services\improvement.html:60
+msgid "Join us on"
+msgstr ""
+
+#: .\tonApp\templates\Services\legacy.html:12
+msgid ""
+"<p>Welcom in legacy service<br> below you will found all details about "
+"coaching.<br>"
+msgstr ""
+
+#: .\tonApp\templates\Services\legacy.html:19
+msgid "Conference schedule"
+msgstr ""
+
+#: .\tonApp\templates\Services\legacy.html:21
+msgid "Conference N°"
+msgstr ""
+
+#: .\tonApp\templates\Services\legacy.html:24
+msgid "Time "
+msgstr ""
+
+#: .\tonApp\templates\Services\legacy.html:27
+msgid "Detail"
+msgstr ""
+
+#: .\tonApp\templates\Services\legacy.html:31
+msgid "Topic"
+msgstr ""
+
+#: .\tonApp\templates\Services\legacy.html:35
+msgid ""
+"\n"
+"                <p>Name of speker <!-- Variable of topics--></p>\n"
+"                <p>Background of speacker <!-- Variable of topics--></p>\n"
+"                <p>Expertise <!-- Variable of topics--></p>\n"
+"                "
+msgstr ""
+
+#: .\tonApp\templates\Services\legacy.html:45
+msgid "Registration and participation"
+msgstr ""
+
+#: .\tonApp\templates\Services\legacy.html:47
+msgid ""
+"\n"
+"                          <b>Looking to participate in our engaging and "
+"enlightening conferences?</b> \n"
+"                          <p>Don't miss the opportunity to acquiere new "
+"knowledge and connect with topnotch experts. To \n"
+"register and receive all the necessary information, kindly leave your "
+"contact details in by click of \"start\" at the end section of our website.\n"
+"We will keep you informed about dates, timings, and details of our upcoming "
+"exciting \n"
+"conferences. Join us for an unforgettable learning experience and inspiring "
+"encounters!\".</p>\n"
+"                                "
+msgstr ""
+
+#: .\tonApp\templates\Services\legacy.html:58
+msgid "Conference Formats"
+msgstr ""
+
+#: .\tonApp\templates\Services\legacy.html:59
+msgid ""
+"\n"
+"                        <span><b>Panel Discussions (Tables rondes) :</b>\n"
+"our conferences feature an engaging and interactive format known as panel "
+"discusions or tables \n"
+"rondes. In this format, a group of distinguished experts and thought leaders "
+"gather on stage to \n"
+"disscuss a specific topic or them. Panel discusions offer a dynamic platform "
+"for in-depth \n"
+"exploration, diverse perspectives, and lively exchanges of ideas. \n"
+"How Interactions Take place.\n"
+"During a panel discusion, interactions unfold in the following manner:<br>\n"
+"<b>Moderator's Role:</b> A skilled moderator guides the discusion, ensuring "
+"that the conversation \n"
+"flows smooyhly, and all panelists have an opportunity to share their "
+"insights. The moderator \n"
+"may introduce the topic, pose questions, and facilitate transitions between "
+"panelists.<br>\n"
+"   <b>Diverse viewpoints:</b> Panelists, each with their unique expertise, "
+"present their vieuwpoints, \n"
+"experiences, and opinions on the topic. This diversity of perspectives "
+"enriches the discusion and \n"
+"offers a comprehensive understanding of the subject matter.<br> \n"
+"<b>Engaging Dialogue:</b> Panelists engage in a thoughtful and dynamic "
+"dialogue, building upon \n"
+"one another's comments, challenging ideas, and offering counterarguments. "
+"This encourages a \n"
+"deeper exploration of the topic and promotes critical thinking.<br> \n"
+"<b>Audience participation:</b> The audience plays an integral role by "
+"participating in the \n"
+"discussion. Attendees can ask questions, share their vieuwpoints, and "
+"interact directly with the \n"
+"panelists. This two-way interation fosters a sense of inclusion and "
+"engagement. <br>\n"
+" <b>Exploring Nuances:</b> Panel discussions allow for a comprehensive "
+"exploration of various \n"
+"facets of the topic, delving into its nuances, potential implications, and "
+"real-world applications. \n"
+"The format encourages a well-rounded understanding for both panelists and "
+"attendees. <br>\n"
+" <b>Key Takeaways: </b>Throughout the discusion, key takeaways and insights "
+"are highlighted, \n"
+"summarizing the main points and valuable lessons discussed. These takeaways "
+"provide \n"
+"attendees with actionable knowledge to apply in their own contexts. <br>\n"
+"<p><b>Join us in our panel discussion to be a part of these dynamic "
+"conversations, gain valuable \n"
+"insights, and contribute to a collaborative leaning experience.</b></p> \n"
+"                        </span>\n"
+"                        "
+msgstr ""
+
+#: .\tonApp\templates\Services\legacy.html:101
+msgid "Join us on: "
+msgstr ""
+
+#: .\tonApp\templates\Services\mentoring.html:12
+msgid ""
+"<p> For going somewhere better to be accompanied by someone who knows the "
+"way<br>"
+msgstr ""
+
+#: .\tonApp\templates\Services\mentoring.html:16
+msgid ""
+"\n"
+"            <p><b>Mentorship</b> is a powerful tool for personal and "
+"professional development. Our mentorship \n"
+"                programs connect individuals seeking guidance with "
+"experienced mentors in fields ranging \n"
+"                from academics and entrepreneurship to leadership and "
+"creativity. Unlock your potential with \n"
+"                mentorship.</p>\n"
+"                <p><b>In this service we're offering these kind of mentoring "
+"service below</b></p>\n"
+"                <span><b>Professional Mentorship Program:</b> Offer a "
+"structured mentorship program to help individuals develop their professional "
+"skills and advance in their careers.<br> \n"
+"                <b>Academic Mentoring:</b> Provide support to students by "
+"connecting mentors with learners to guide their academic journey. <br>\n"
+"                <b>Entrepreneurship Mentorship: </b>Connect experienced "
+"entrepreneurs with newcomers to provide practical advice and guidance. <br>\n"
+"                <b>Leadership Mentorship: </b>Provide mentorship to develop "
+"leadership skills, decision-making, and team management. <br>\n"
+"                <b>Personal Development Mentorship: </b>Help individuals "
+"explore their potential, set personal goals, and take steps toward their "
+"full development. <br>\n"
+"                <b>Youth Mentorship:</b> Establish a mentorship program for "
+"young people to guide them in their personal, academic, and professional "
+"development. <br>\n"
+"                <b>Career Transition Mentorship:</b> Offer support to "
+"individuals transitioning in their careers by connecting them with mentors "
+"who have similar experience.<br>\n"
+"                <b>Business Growth Mentorship:</b> Connect established "
+"business leaders with aspiring entrepreneurs to share insights on business "
+"growth and management.<br>\n"
+"\t        <b>Women in Business Mentorship:</b> Create a safe space for women "
+"to receive guidance, support, and perspectives on their professional "
+"journey. <br>\n"
+"                <b>Interpersonal Mentorship:</b> Provide guidance to improve "
+"interpersonal skills, communication, and building positive relationships. "
+"<br>\n"
+"                <b>Creativity and Innovation Mentorship:</b>Match creative "
+"mentors with individuals seeking to enhance their creativity and innovative "
+"thinking.<br> \n"
+"                <b>Time Management and Productivity Mentorship:</b> Offer "
+"practical advice to optimize time management, increase productivity, and "
+"achieve goals effectively. <br>\n"
+"                "
+msgstr ""
+
+#: .\tonApp\templates\Services\openWorldWild.html:19
+msgid ""
+"\n"
+"                <p><b>In this service we're offering these kind of service "
+"below</b></p>\n"
+"               <span>\n"
+"                <b>Talent Discovery:</b> Assist visitors in discovering "
+"their unique talents through questionnaires, \n"
+"assessments, or interactive exercises.<br>\n"
+"                <b>Skill Development:</b> Provide guidance and resources to "
+"help users improve their skills and \n"
+"further develop their talents.<br> \n"
+"                <b>Exploring Career Passions:</b> visitors in exploring "
+"their career and vocational passions, \n"
+"helping them align their talents with areas of interest.<br>\n"
+"                <b>Creativity and Innovation:</b> techniques and tips to "
+"stimulate creativity and foster \n"
+"innovation using your talents.<br>\n"
+"                <b>Professional Empowerment:</b> Share strategies for "
+"leveraging your talents in the professional \n"
+"realm, whether as an employee or entrepreneur.<br>\n"
+"                <b>Training and Resources:</b> Provide recommendations for "
+"training, online courses, or books \n"
+"that can help further develop individual talents.<br>\n"
+"                    "
+msgstr ""
+
+#: .\tonApp\templates\Services\openWorldWild.html:38
+msgid ""
+"<p>develop your competence or ability in a specific domain with network "
+"twenty-one"
+msgstr ""
+
+#: .\tonApp\templates\Services\pointOfview.html:12
+msgid ""
+"<p>If it's senseless to fight so to defends your argument, it will be also "
+"if you don't defends your point of views<br>"
+msgstr ""
+
+#: .\tonApp\templates\Services\pointOfview.html:15
+msgid ""
+"\n"
+"        <div class=\"contentPOVText\">\n"
+"            <p><b>Point of View</b> focuses on expanding perspectives and "
+"promoting empathy. Our services offer \n"
+"                techniques and resources to help you understand different "
+"viewpoints, enhance critical thinking, \n"
+"                and build better relationships in a diverse world.</p>\n"
+"        <p><b>In this service we're offering these kind of coaching service "
+"below</b></p>\n"
+"         <span> <b>Perspective Shifting:</b> Share techniques and exercises "
+"to help visitors expand their \n"
+"                perspective and see situations from different angles. <br>\n"
+"                <b>Empathy and Understanding:</b> Offer insights on "
+"developing empathy and understanding \n"
+"                towards different viewpoints, promoting better relationships "
+"and communication.<br>\n"
+"                <b>Cultural Awareness:</b> Provide resources to increase "
+"awareness of diverse cultures and \n"
+"                encourage visitors to appreciate and respect cultural "
+"differences. <br>\n"
+"                <b>Critical Thinking:</b> Offer tools and guidance for "
+"enhancing critical thinking skills, enabling \n"
+"                visitors to analyze and evaluate various perspectives.<br>\n"
+"                <b>Media Literacy:</b> Provide tips for discerning reliable "
+"sources of information, analyzing media \n"
+"                content, and avoiding bias in understanding different "
+"viewpoints. <br>\n"
+"                <b>Conflict Resolution:</b> Share strategies for resolving "
+"conflicts by considering multiple \n"
+"                perspectives and finding common ground.</span>\n"
+"        </div> \n"
+"        "
+msgstr ""
+
+#: .\tonApp\templates\Services\pointOfview.html:37
+msgid ""
+"\n"
+"          <span><b>Open-Mindedness:</b> Encourage visitors to cultivate an "
+"open mind and be receptive to new \n"
+"                ideas and opinions.<br> \n"
+"                <b>Debating Skills:</b> Offer tips on engaging in "
+"constructive debates, promoting healthy \n"
+"                discussions, and respecting opposing viewpoints. <br>\n"
+"                <b>Cultivating Tolerance:</b> Provide insights into "
+"fostering tolerance and acceptance of diverse \n"
+"                opinions, fostering a more inclusive and harmonious "
+"environment. <br>\n"
+"               <b>Narrative Exploration:</b> Guide visitors in exploring "
+"different narratives and stories to \n"
+"                broaden their understanding of various viewpoints.<br>\n"
+"                <b>Ethical Considerations:</b> Discuss the ethical "
+"implications of different perspectives and \n"
+"                encourage thoughtful decision-making. <br>\n"
+"               <b>Applying Different Perspectives:</b> Provide practical "
+"examples of how considering different \n"
+"                viewpoints can lead to innovative solutions and better "
+"decision outcomes.</span>\n"
+"                "
+msgstr ""
+
+#: .\tonApp\templates\aboutUs.html:16
+msgid ""
+"\n"
+"                  <p> \"We are world's champions uplifting human "
+"ressources.\n"
+"                    <br> Mision : our vision is to keep researches alive for "
+"future generations as a part of legacy.<br>\n"
+"                    Vision: bringing educationnal world system's available "
+"for old schools accessible toward the seminar's conferences and workshops, "
+"professional training.\n"
+"                </p>\n"
+"                "
+msgstr ""
+
+#: .\tonApp\templates\aboutUs.html:24
+msgid "Home "
+msgstr ""
+
+#: .\tonApp\templates\aboutUs.html:25
+msgid "Become member"
+msgstr ""
+
+#: .\tonApp\views.py:13
+msgid ""
+"Knowledge is the key for a best futur. wherever you are, Network twenty one "
+"is there to accompany you with its services."
+msgstr ""
+
+#: .\twentyOneNetwork\settings.py:111
+msgid "Francais"
+msgstr "French"
+
+#: .\twentyOneNetwork\settings.py:112
+msgid "Anglais"
+msgstr "English"

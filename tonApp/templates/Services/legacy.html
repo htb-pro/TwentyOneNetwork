@@ -1,0 +1,115 @@
+{%extends 'Services/coaching.html'%}
+{%load static %}
+{% load i18n%}
+{%block title%}Legacy service{% endblock %}
+{%block Content%}
+   <div class="headerLegacy">
+
+   </div>
+   
+   <div class="contentLegacy">
+        <div class="sectionLegacy" style="background-image: url('{%static 'Pictures/pexels-photo-1181304.jpeg' %}'); background-position: 0 -35rem; background-size: cover;">
+    
+              {%trans "<p>Welcom in legacy service<br> below you will found all details about coaching.<br>" %}
+                    {{Date}}</p>
+                </div>
+                <div class="aboutProgram">
+
+        <div class="timeDiv">
+                <div class="schedule">
+        <p><h2>{% trans "Conference schedule" %}</h2> </p>
+        <div class="confId">
+        <p>{% trans "Conference N°"%} <b>{{Id}}</b><!-- Variable Id--></p>
+                </div>
+                <div class="time">
+        <p>{% trans "Time " %}<br>
+                {{Houre}}<!-- Variable of time--></p>
+                </div>
+        <p><b>{% trans "Detail" %}</b>  <!-- Variable of detail--></p>
+        </div>
+        </div> 
+        <div class="topic">
+                <p>{% trans "Topic" %}</p>
+                <p> <!-- Variable of topics--></p>
+        </div>
+        <div class="aboutSpeaker">
+                {% blocktranslate %}
+                <p>Name of speker <!-- Variable of topics--></p>
+                <p>Background of speacker <!-- Variable of topics--></p>
+                <p>Expertise <!-- Variable of topics--></p>
+                {% endblocktranslate %}
+        </div>
+                </div>
+                <div class="moreInfo">
+                <div class="participation">
+                        <img src="{% static 'Pictures/jeune entrepreneur a la reunion daffaire.png' %}" alt="not found" width="100%">
+                        <p><h3>{% trans "Registration and participation" %}</h3></p>
+                        <span>
+                                {% blocktranslate %}
+                          <b>Looking to participate in our engaging and enlightening conferences?</b> 
+                          <p>Don't miss the opportunity to acquiere new knowledge and connect with topnotch experts. To 
+register and receive all the necessary information, kindly leave your contact details in by click of "start" at the end section of our website.
+We will keep you informed about dates, timings, and details of our upcoming exciting 
+conferences. Join us for an unforgettable learning experience and inspiring encounters!".</p>
+                                {% endblocktranslate %}
+                        </span>
+                </div>
+                <div class="conferenceFormat">
+                        
+                        <p><h2>{% trans "Conference Formats" %}</h2></p>
+                        {% blocktranslate %}
+                        <span><b>Panel Discussions (Tables rondes) :</b>
+our conferences feature an engaging and interactive format known as panel discusions or tables 
+rondes. In this format, a group of distinguished experts and thought leaders gather on stage to 
+disscuss a specific topic or them. Panel discusions offer a dynamic platform for in-depth 
+exploration, diverse perspectives, and lively exchanges of ideas. 
+How Interactions Take place.
+During a panel discusion, interactions unfold in the following manner:<br>
+<b>Moderator's Role:</b> A skilled moderator guides the discusion, ensuring that the conversation 
+flows smooyhly, and all panelists have an opportunity to share their insights. The moderator 
+may introduce the topic, pose questions, and facilitate transitions between panelists.<br>
+   <b>Diverse viewpoints:</b> Panelists, each with their unique expertise, present their vieuwpoints, 
+experiences, and opinions on the topic. This diversity of perspectives enriches the discusion and 
+offers a comprehensive understanding of the subject matter.<br> 
+<b>Engaging Dialogue:</b> Panelists engage in a thoughtful and dynamic dialogue, building upon 
+one another's comments, challenging ideas, and offering counterarguments. This encourages a 
+deeper exploration of the topic and promotes critical thinking.<br> 
+<b>Audience participation:</b> The audience plays an integral role by participating in the 
+discussion. Attendees can ask questions, share their vieuwpoints, and interact directly with the 
+panelists. This two-way interation fosters a sense of inclusion and engagement. <br>
+ <b>Exploring Nuances:</b> Panel discussions allow for a comprehensive exploration of various 
+facets of the topic, delving into its nuances, potential implications, and real-world applications. 
+The format encourages a well-rounded understanding for both panelists and attendees. <br>
+ <b>Key Takeaways: </b>Throughout the discusion, key takeaways and insights are highlighted, 
+summarizing the main points and valuable lessons discussed. These takeaways provide 
+attendees with actionable knowledge to apply in their own contexts. <br>
+<p><b>Join us in our panel discussion to be a part of these dynamic conversations, gain valuable 
+insights, and contribute to a collaborative leaning experience.</b></p> 
+                        </span>
+                        {% endblocktranslate %}
+                </div>
+                </div>
+       
+       <a href="{%url 'tonApp:CoordonneeUser' %}"> <p  style="background-color:rgb(212, 223, 226);color: red; 
+       font-size: 2rem; font-family: century 'sens-serif'; width: 10vw;height: 5vh;
+       margin-left: 35vw; text-align: center;padding: 10px; border-radius: 50px;
+        ">{% trans "Start" %}</p></a>
+        
+    </div>
+  {%endblock%}
+   <footer>
+        <div class="join">
+                <p><h2>{% trans "Join us on: "%}</h2></p>
+                <a href="#"><a href="#"><p><img src="{% static 'Pictures/facebookLogo.png'%}" alt="image non-retrouve" width="50" height="50" style="border-radius: 50%;">Facebook</p></a>
+                <a href="#"><p><img src="{%static 'Pictures/instagram.jpeg'%}" alt="image non-retrouve" width="50px" height="50" style="border-radius: 50%;">Instagram</p></a>
+                <a href="#"><p><img src="{%static 'Pictures/tik-tok-logo.png'%}" alt="image non-retrouve" width="50px">Tiktop</p></a>
+                <a href="#"><p><img src="{%static 'Pictures/twitter-logo.png'%}" alt="image non-retrouve" width="50px">Twiter</p></a>
+                <a href="#"><img src="{% static 'Pictures/linkdin logo.jpeg' %}" alt="image non-retrouve" width="50px" style="border-radius: 50%;">linkdIn</p></a>
+            </div>
+        <div class="callContacts">
+            <p><img src="{%static 'Pictures/whatsapp.png' %}" alt="image non retrouvé" width="25">: +243 85 416 60 45</p>
+            <p><img src="{%static 'Pictures/call logo.jpeg' %}" alt="image non retrouvé" width="25" style="border-radius: 50%;">: +243 99 116 20 45</p>
+        </div>
+   </footer>
+</body>
+</html>

@@ -1,0 +1,88 @@
+{%load static %}
+{% load i18n%}
+<!doctype html>
+<html>
+<head>
+<title>{%block title%}Coaching service{% endblock%}</title>
+<meta charset="UTF-8" />
+<link rel="stylesheet" type="text/css" href="{% static 'css/homeStyle.css' %}" />
+</head>
+<body>
+        {%block Content %}
+   <div class="headerCoaching">
+
+   </div>
+   
+   <div class="contentCoaching">
+        <div class="sectionCoaching" style="background-image: url('{%static 'Pictures/coache in coaching.jpg' %}'); background-size: cover;">
+                 
+               {% trans " <p>Welcom in Coaching service<br> below you will found all details about coaching.<br> "%}
+
+                    {{Date}}</p>
+               </div>
+        <div class="contentCoachingText">
+                {% blocktranslate %}
+       <p><b>Coaching</b> is about personal development and growth. Our one-on-one coaching sessions cater 
+        to various aspects of life, from career and confidence building to stress management and
+        creativity. Let our experienced coaches guide you toward your goals.</p>
+        <p><b>In this service we're offering these kind of coaching service below</b></p>
+         <span><b>Development Coaching:</b> Offer one-on-one coaching sessions to help individuals 
+         and achieve personal and professional goals.</span></br> 
+         <span><b>Career Coaching:</b> Provide guidance and support for career advancement, job search 
+strategies, and professional development.</span><br>
+         <span><b>Life Balance Coaching:</b> Assist individuals in finding a healthy balance between work, 
+personal life, and well-being.</span><br>
+        <span><b>Confidence and Self-Esteem Coaching:</b> Help individuals boost their confidence, develop a 
+positive self-image, and overcome self-doubt.</span><br>
+        <span><b>Relationship Coaching:</b> Offer insights and strategies for building and maintaining healthy 
+relationships, whether romantic, familial, or professional.</span>
+                {% endblocktranslate%}
+        </div> 
+   
+       
+        <div class="contenCoachingText1">
+                {% blocktranslate %}
+          <span><b>Leadership Coaching:</b> Provide coaching for individuals looking to enhance their leadership 
+skills and effectively manage teams. </span><br>
+            <span><b>Stress Management Coaching:</b> Assist individuals in managing stress, developing coping 
+strategies, and improving overall resilience. </span><br>
+            <span><b>Communication Skills Coaching:</b> Offer guidance on improving interpersonal 
+communication, public speaking, and effective dialogue. </span><br>
+            <span><b>Health and Wellness Coaching:</b> Provide support for adopting healthy habits, improving 
+fitness, and achieving overall wellness goals. </span><br>
+            <span><b>Time Management Coaching:</b> Help individuals optimize their time, prioritize tasks, and 
+achieve better work-life balance.</span><br>
+            <span><b>Creativity Coaching:</b> Assist individuals in overcoming creative blocks, fostering 
+innovation, and tapping into their creative potential.</span><br>
+            <span><b> Setting and Achievement Coaching: </b> individuals in setting actionable goals, 
+developing plans, and tracking progress.</span>
+        </div>
+        {% endblocktranslate %}
+        <div class="Button">
+       <a href="{%url 'tonApp:CoordonneeUser' %}"> <p  style="background-color:rgb(212, 223, 226);color: red; 
+       font-size: 2rem; font-family: century 'sens-serif'; width: 10vw;height: 5vh;
+       margin-left: 35vw; text-align: center;padding: 10px; border-radius: 50px;
+        ">{% trans " Start "%}</p></a>
+        </div>
+    </div>
+  {%endblock%}
+   <footer>
+        <div class="join">
+                <p><h2>{% trans " Join us on : "%}</h2></p>
+                <a href="#"><a href="#"><p><img src="{% static 'Pictures/facebookLogo.png'%}" alt="image non-retrouve" width="50" height="50" style="border-radius: 50%;">Facebook</p></a>
+                <a href="#"><p><img src="{%static 'Pictures/instagram.jpeg'%}" alt="image non-retrouve" width="50px" height="50" style="border-radius: 50%;">Instagram</p></a>
+                <a href="#"><p><img src="{%static 'Pictures/tik-tok-logo.png'%}" alt="image non-retrouve" width="50px">Tiktop</p></a>
+                <a href="#"><p><img src="{%static 'Pictures/twitter-logo.png'%}" alt="image non-retrouve" width="50px">Twiter</p></a>
+                <a href="#"><img src="{% static 'Pictures/linkdin logo.jpeg' %}" alt="image non-retrouve" width="50px" style="border-radius: 50%;">linkdIn</p></a>
+            </div>
+            <div class="aboutTonLink">
+                <li><a href="{% url 'tonApp:tonApp-homePage' %}">Home</a></li>
+                <li><a href="{% url 'tonApp:aboutUs' %}">About us</a></li>
+            </div>
+        <div class="callContacts">
+            <p><img src="{%static 'Pictures/whatsapp.png' %}" alt="image non retrouvé" width="25">: +243 85 416 60 45</p>
+            <p><img src="{%static 'Pictures/call logo.jpeg' %}" alt="image non retrouvé" width="25" style="border-radius: 50%;">: +243 99 116 20 45</p>
+        </div>
+   </footer>
+</body>
+</html>

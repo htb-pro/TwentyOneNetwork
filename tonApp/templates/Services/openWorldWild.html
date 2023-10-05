@@ -1,0 +1,83 @@
+{% extends 'Services/coaching.html'%}
+{%load static %}
+{% load i18n%}
+{% block title%}openlessWoldWild service{% endblock%}
+{% block Content%}
+   <div class="headerOpenlessWoldWild">
+
+   </div>
+   
+   <div class="contentOpenlessWoldWild">
+    <div class="SecondHeader" style="background-image: url('{%static 'Pictures/Farm cow.PNG' %}'); repeat:no-repeat;background-size: cover; background-position:0 0 ;">
+    
+        {% trans"<p>openless to Wild's Wold<br></p>" %}
+       </div>
+        <div class="OWWImg0" style="background-image: url('{%static 'Pictures/1689519938107.JPEG' %}');background-position:-25rem 0rem ;background-size: cover;">
+        {% trans "<p>develop what you got with network twenty-one </p>"%}
+        </div>
+       
+        <div class="contentOWW0">
+            {% blocktranslate %}
+                <p><b>In this service we're offering these kind of service below</b></p>
+               <span>
+                <b>Talent Discovery:</b> Assist visitors in discovering their unique talents through questionnaires, 
+assessments, or interactive exercises.<br>
+                <b>Skill Development:</b> Provide guidance and resources to help users improve their skills and 
+further develop their talents.<br> 
+                <b>Exploring Career Passions:</b> visitors in exploring their career and vocational passions, 
+helping them align their talents with areas of interest.<br>
+                <b>Creativity and Innovation:</b> techniques and tips to stimulate creativity and foster 
+innovation using your talents.<br>
+                <b>Professional Empowerment:</b> Share strategies for leveraging your talents in the professional 
+realm, whether as an employee or entrepreneur.<br>
+                <b>Training and Resources:</b> Provide recommendations for training, online courses, or books 
+that can help further develop individual talents.<br>
+                    {% endblocktranslate %}
+               </span>
+               </div>
+               <div class="OWWImg1" style="background-image: url('{%static 'Pictures/pexels-photo-8512121.JPEG' %}');background-size: cover;background-position: -20px 0rem;">
+                {% trans "<p>develop your competence or ability in a specific domain with network twenty-one" %}</p>
+                </div>
+                <div class="contentOWW1">
+                    {% blocktranslate %}
+                <span>
+                    <b>Networking and Collaborations:</b> Highlight the importance of networking and 
+                    collaborations in showcasing your talents and expanding opportunities.<br> 
+                   <b> Storytelling and Personal Branding:</b> Show how to use your talents to create a unique 
+                    personal brand and tell your story compellingly. <br>
+                    <b>Success Testimonials:</b> Share inspirational stories of individuals who identified and 
+                    harnessed their talents to achieve success.<br>
+                     <b>Social Contribution:</b> Explore how your talents can be used to make a positive difference 
+                    in society and contribute to community well-being. <br>
+                    <b> Creative Challenges:</b> Offer creative challenges and projects to put your talents into practice 
+                    and boost your creativity.<br>
+                    <b> Work-Life Balance:</b> Provide advice on balancing the use of your talents in your career and 
+                    personal life to maintain a healthy harmony. 
+                </span>
+                {% endblocktranslate %}
+                    </div>
+                    <div class="Button">
+                        <a href="{%url 'tonApp:CoordonneeUser' %}"> <p  style="background-color:rgb(212, 223, 226);color: red; 
+                        font-size: 2rem; font-family: century 'sens-serif'; width: 10vw;height: 5vh;
+                        margin-left: 30vw; text-align: center;padding: 10px; border-radius: 50px;
+                         ">{% trans "Start" %}</p></a>
+                         </div>
+        </div>
+  {%endblock%}
+   <footer>
+        <div class="join">
+                <p><h2>{% trans "Join us on :" %}</h2></p>
+                <a href="#"><a href="#"><p><img src="{% static 'Pictures/facebookLogo.png'%}" alt="image non-retrouve" width="50" height="50" style="border-radius: 50%;">Facebook</p></a>
+                <a href="#"><p><img src="{%static 'Pictures/instagram.jpeg'%}" alt="image non-retrouve" width="50px" height="50" style="border-radius: 50%;">Instagram</p></a>
+                <a href="#"><p><img src="{%static 'Pictures/tik-tok-logo.png'%}" alt="image non-retrouve" width="50px">Tiktop</p></a>
+                <a href="#"><p><img src="{%static 'Pictures/twitter-logo.png'%}" alt="image non-retrouve" width="50px">Twiter</p></a>
+                <a href="#"><img src="{% static 'Pictures/linkdin logo.jpeg' %}" alt="image non-retrouve" width="50px" style="border-radius: 50%;">linkdIn</p></a>
+            </div>
+        <div class="callContacts">
+                <span><h2>{% trans "For more information contact us" %}</h2></span>
+            <p><img src="{%static 'Pictures/whatsapp.png' %}" alt="image non retrouvé" width="25">: +243 85 416 60 45</p>
+            <p><img src="{%static 'Pictures/call logo.jpeg' %}" alt="image non retrouvé" width="25" style="border-radius: 50%;">: +243 99 116 20 45</p>
+        </div>
+   </footer>
+</body>
+</html>

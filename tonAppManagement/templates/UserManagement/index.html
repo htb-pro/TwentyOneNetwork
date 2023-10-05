@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title%}index{%endblock%}</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/tonStyle.css' %}" />
+</head>
+<body>
+ 
+   <nav>
+    <div class="navHeadTitle">
+        <img src="{% static 'Pictures/Logo network twenty one.JPG' %}" alt="Not found" height=70px" width="70px" style="border-radius: 60%;">
+    <span>Twenty-one network</span>
+</div>
+    <a href="#">Tableau de bord</a>
+    <a href="#">Services</a>
+    <a href="{% url 'tonAppManagement:userInfo' %}">Coordonnees utilisateur</a>
+    <a href="#">Encadreur</a>
+    <a href="#">Invité</a>
+    <a href="#">Participant</a>
+    <a href="#">Conference</a>
+    <a href="{% url 'tonAppManagement:mail' %}">Messages</a>
+    <a href="">Parametre</a>
+    </nav>
+    <div class="ronds">
+        <div class="ron R1"></div>
+        <div class="ron R2"></div>
+        <div class="ron R3"></div>
+        <div class="ron R4"></div>
+        <div class="ron R5"></div>
+       </div>
+    {% block Content %}
+    <!-- les elements des templates fils sont inseres ici -->
+   {%endblock%}
+</body>
+</html>

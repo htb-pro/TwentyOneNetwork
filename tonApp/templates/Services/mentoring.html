@@ -1,0 +1,62 @@
+{% extends 'Services/coaching.html'%}
+{%load static %}
+{% load i18n%}
+{% block title %}Mentoring service{% endblock %}
+{% block Content %}
+   <div class="headerMentoring">
+
+   </div>
+   
+   <div class="contentMentoring">
+    <div class="sectionMentoring" style="background-image: url('{%static 'Pictures/pexels-photo-7640739.JPEG' %}'); repeat:no-repeat;background-size: cover; background-position:6px 0px 0px;">
+    
+       {%trans "<p> For going somewhere better to be accompanied by someone who knows the way<br>" %}
+            {{Date}}</p>
+       </div>
+        <div class="contentMentoringText">
+            {% blocktranslate %}
+            <p><b>Mentorship</b> is a powerful tool for personal and professional development. Our mentorship 
+                programs connect individuals seeking guidance with experienced mentors in fields ranging 
+                from academics and entrepreneurship to leadership and creativity. Unlock your potential with 
+                mentorship.</p>
+                <p><b>In this service we're offering these kind of mentoring service below</b></p>
+                <span><b>Professional Mentorship Program:</b> Offer a structured mentorship program to help individuals develop their professional skills and advance in their careers.<br> 
+                <b>Academic Mentoring:</b> Provide support to students by connecting mentors with learners to guide their academic journey. <br>
+                <b>Entrepreneurship Mentorship: </b>Connect experienced entrepreneurs with newcomers to provide practical advice and guidance. <br>
+                <b>Leadership Mentorship: </b>Provide mentorship to develop leadership skills, decision-making, and team management. <br>
+                <b>Personal Development Mentorship: </b>Help individuals explore their potential, set personal goals, and take steps toward their full development. <br>
+                <b>Youth Mentorship:</b> Establish a mentorship program for young people to guide them in their personal, academic, and professional development. <br>
+                <b>Career Transition Mentorship:</b> Offer support to individuals transitioning in their careers by connecting them with mentors who have similar experience.<br>
+                <b>Business Growth Mentorship:</b> Connect established business leaders with aspiring entrepreneurs to share insights on business growth and management.<br>
+	        <b>Women in Business Mentorship:</b> Create a safe space for women to receive guidance, support, and perspectives on their professional journey. <br>
+                <b>Interpersonal Mentorship:</b> Provide guidance to improve interpersonal skills, communication, and building positive relationships. <br>
+                <b>Creativity and Innovation Mentorship:</b>Match creative mentors with individuals seeking to enhance their creativity and innovative thinking.<br> 
+                <b>Time Management and Productivity Mentorship:</b> Offer practical advice to optimize time management, increase productivity, and achieve goals effectively. <br>
+                {% endblocktranslate %}
+        </span>
+               </div> 
+               <div class="Button">
+                <a href="{%url 'tonApp:CoordonneeUser' %}"> <p  style="background-color:rgb(212, 223, 226);color: red; 
+                font-size: 2rem; font-family: century 'sens-serif'; width: 10vw;height: 5vh;
+                margin-left: 35vw; text-align: center;padding: 10px; border-radius: 50px;
+                 ">{% trans "Start" %}</p></a>
+                 </div>
+        </div>
+  {%endblock%}
+   <footer>
+        <div class="join">
+                <p><h2>{% trans "Join us on :"}</h2></p>
+                <a href="#"><a href="#"><p><img src="{% static 'Pictures/facebookLogo.png'%}" alt="image non-retrouve" width="50" height="50" style="border-radius: 50%;">Facebook</p></a>
+                <a href="#"><p><img src="{%static 'Pictures/instagram.jpeg'%}" alt="image non-retrouve" width="50px" height="50" style="border-radius: 50%;">Instagram</p></a>
+                <a href="#"><p><img src="{%static 'Pictures/tik-tok-logo.png'%}" alt="image non-retrouve" width="50px">Tiktop</p></a>
+                <a href="#"><p><img src="{%static 'Pictures/twitter-logo.png'%}" alt="image non-retrouve" width="50px">Twiter</p></a>
+                <a href="#"><img src="{% static 'Pictures/linkdin logo.jpeg' %}" alt="image non-retrouve" width="50px" style="border-radius: 50%;">linkdIn</p></a>
+            </div>
+        <div class="callContacts">
+                <span><h2>{% trans "For more information contact us" %}</h2></span>
+            <p><img src="{%static 'Pictures/whatsapp.png' %}" alt="image non retrouvé" width="25">: +243 85 416 60 45</p>
+            <p><img src="{%static 'Pictures/call logo.jpeg' %}" alt="image non retrouvé" width="25" style="border-radius: 50%;">: +243 99 116 20 45</p>
+        </div>
+   </footer>
+</body>
+</html>

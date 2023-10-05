@@ -1,0 +1,68 @@
+{% extends 'UserManagement/index.html'%}
+{% load static %}
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{%block title%}Coordonnees des visiteurs{%endblock%}</title>
+    </head>
+<body>
+    {%block Content %}
+<header>
+    <span class="Heure">{{date}}</span>
+    <span class="Connexion">Welcome | <a href="#">Se Deconnecter</a></span>
+</header>
+<div class="filtre">
+    <img src="{% static 'Pictures/filtre.PNG' %}" alt="Not found" width="30px">
+    <P>Filtré</P>
+    
+    <div class="menu">
+  
+   <p><a href="">Non traité</a></p>
+    <p><a href="">Traité</a></p>
+
+       <!--  
+    <input type="checkbox" name="status" >{{userInfos.status}} -->
+    </div>
+    
+</div>
+<section>
+    <div class="RechercheButton">
+        <form action="" method="get">
+            {% csrf_token%}
+            <input type="search" name="chercher" id="recheche" placeholder="Recheche"><input type="submit" value="OK">
+        </form>
+    </div>
+<table>
+    <thead>
+        <tr>
+        <th>Nom</th>
+        <th>Prenom</th>
+        <th>Service</th>
+        <th>Adresse mail</th>
+        <th>Numero</th>
+        <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for userInfo in userInfos %}
+        <tr>
+            <td>{{userInfo.firstname}}</td>
+            <td>{{userInfo.secondname}}</td>
+            <td>{{userInfo.service}}</td>
+            <td>{{userInfo.number}}</td>
+            <td>{{userInfo.email}}</td>
+            <td>
+                <select name="status" id="etat">
+                    <option value="N" class="undone">Non traité</option>
+                    <option value="T" class="done">Traité</option>
+                </select>
+            </td>
+        </tr>
+        {%endfor%}
+    </tbody>
+</table>
+</section>
+{%endblock%}
+</body>
+</html>

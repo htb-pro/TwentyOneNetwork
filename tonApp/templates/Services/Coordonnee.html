@@ -1,0 +1,36 @@
+{%load static%}
+{% load i18n%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form of user informations </title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/FormStyle.css' %}" />
+</head>
+<body>
+    <div class="container">
+    <div class="twentyOneNetworkLogo">
+        <img src="{% static 'Pictures/Logo network twenty one.JPG' %}" alt="not found" width="50%">
+        {%" trans "<p>Hello !</p> " %}
+    </div>
+<div class="formulaire">
+    <img src="{% static 'Pictures/images (3).png' %}" width="50" style="border-radius: 50%;" alt="image not found"><p><h2>Get in touch</h2></p>
+    <form action="" method="post">
+        {% csrf_token %}
+        <p><input type="text" placeholder="Enter your first name " name="firstname" required></p>
+        <p><input type="text" placeholder="Enter your second name " name="secondname" required></p>
+        <p><select name="service" id="serviceOption" >
+            {% for service in services%}
+            <option >{{service.name}}</option>
+            {%endfor%}
+        </select></p>
+        <p><input type="tel" placeholder="Enter your phone number" name="number" required></p>
+       <p> <input type="email" placeholder="Enter your email" name="email" ></p>
+        <p><input type="submit" value="Send"></p>
+    </form>
+   
+</div>
+</div>
+</body>
+</html>

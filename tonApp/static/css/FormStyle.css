@@ -1,0 +1,136 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-color: white;
+}
+.formulaire
+{/*la mise en form de la div qui contient les eleements et le formulaire*/
+    display: block;
+   position: relative;  /* permet a ses descendant de faire leurs position sur celui ci qui est la mere */
+    flex-direction: column;
+    background-color:  rgba(249, 252, 249, 0.5);
+    width: 30vw;
+    height: 75vh;
+    align-content: center;
+    padding: 2rem;
+    margin-left: 39.8rem;
+    margin-top: 2.5%;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 0 5px 10px -5px;
+}
+
+form
+{
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.formulaire img
+{
+    position: absolute;
+    top: 20px;
+    margin-left: 0px;
+    opacity: 0.6;
+}
+.formulaire > h2
+{
+    margin-left: 70px;
+    margin-top: 20px;
+    font-family: century;
+    color: rgb(147, 147, 147);
+}
+input
+{
+    height: 50px;
+    width: 220px;
+    font-family: sens-serif;
+    font-size: 1.2rem;
+    outline: none;
+    margin-top: 10px;
+    background-color:  rgba(249, 252, 249, 0.2)
+
+}
+input:focus
+{
+    font-family: century;
+    font-size: 1.3rem;
+}
+input[type="text"]
+{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+input[type="tel"]
+{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+input:focus
+{
+    border-color: red;
+    transition:all  3s;
+    color: black;
+}
+input[type="email"]
+{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+
+}
+input[type="submit"]
+{
+    border-radius: 50px;
+    cursor: pointer;
+}
+input[type="submit"]:hover
+{
+    border-color: red;
+    transition: 0.3s all;
+}
+input[type="submit"]:focus
+{
+    border-color: red;
+    transition: 0.3s all;
+}
+.formulaire form  #serviceOption
+{
+    height: 2rem;
+    width: 14rem;
+    margin-top: 1rem;
+}
+.twentyOneNetworkLogo
+{
+    width: 30vw;
+    height: 84vh;
+    background-color:black;
+    color: white;
+    margin-left: 14.3rem;
+    margin-top: 2.5rem;
+    position:absolute;
+}
+.twentyOneNetworkLogo p
+{
+    font-size: 25px;
+    position: absolute;
+    left: 11rem;
+    color: green;
+}
+.twentyOneNetworkLogo img
+{
+    margin-top: 25vh;
+    margin-left: 8vw;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    grid-row: 1;
+    position: relative;
+}

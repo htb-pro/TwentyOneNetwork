@@ -1,0 +1,33 @@
+{%load static%}
+
+<!doctype html>
+<html>
+<head>
+<title>{%block title %}user messages{% endblock%}</title>
+<meta charset="UTF-8" />
+<link rel="stylesheet" type="text/css" href="{% static 'css/homeStyle.css'%}" />
+</head>
+<body>
+    <div class="header">
+        
+    </div>
+    {%block content%}
+    <div class="Commentaires">
+ <p><h2>Voici les commentaires des visiteurs </h2></p>
+ <table>
+<thead>
+    <tr>
+    <th><h2>Numero</h2></th>
+    <th><h2>Adresse Mail</h2></th>
+    <th><h2>Message</h2></th>
+    </tr>
+</thead>
+<tbody>
+    <td>{{comments.Nom}}</td>
+    <td>{{comments.Tel}}</td>
+    <td>{{comments.Mail}}</td>
+    <td>{{comments.message}}</td>
+</tbody>
+</body>
+</html>
+{%endblock%}
